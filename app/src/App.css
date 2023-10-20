@@ -1,0 +1,62 @@
+.container {
+  margin: 20px 50px;
+
+  background-color: #008dcc;
+  color: white;
+  border-radius: 15px;
+}
+.App-title {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.TodoContainer {
+  padding: 20px;
+  border-right: 2px solid white;
+  height: 100vh;
+  position: relative;
+}
+.ProgressContainer {
+  padding: 20px;
+  border-right: 2px solid white;
+  height: 100vh;
+}
+.DoneContainer {
+  padding: 20px;
+}
+.card {
+  margin-top: 25px;
+  padding: 5px;
+  border: 2px solid black;
+  position: relative;
+}
+
+.textarea {
+  margin: 15px 5px;
+  padding: 5px;
+  border: 2px groove black;
+  border-radius: 8px;
+  height: 35px;
+  color: black;
+}
+.AddButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.title-bar {
+  padding: 3px;
+  height: 46px;
+  border: 2px groove;
+  border-radius: 7px;
+  background-color: rgb(253, 245, 235);
+  color: black;
+}
+.Deletebtn {
+  height: 36px;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  /* background-color: red;
+  color: white; */
+}
